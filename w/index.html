@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Oach Do Phac</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- thêm file css vào ngay html -->
+    <link rel="stylesheet" href="index.css"/>
+    <script defer>
+      let kimono = () =>{
+        alert("Kimono qua da pepsi oi!")
+      }
+    </script>
+  </head>
+  <body>
+    <!-- head 1,2,3 lớn thứ tự -->
+    <h1><span class="h22">Ví dụ tí</span></h1>
+    <h1><span class="h22">VAI CA CAC</span></h1>
+    <h2><span class="h22">That luon a</span></h2>
+    <h3 ><span id="ngam">NGAM HOA le roi</span></h3>
+    <!-- div này dùng <br> để xuống dòng -->
+    <div>
+        TAM THUC DA LUONG<br />
+        anh xin mot dieu uoc <br />
+        son tung mtp   
+    </div>
+    <!-- div này tạo list, ul là dấu chấm, ol là thứ tự -->
+    <div id="lit">
+      <p>Danh sach mon cua quan chung toi yeh yeh:<br /></p>
+      <ul>
+        <li>Sekiro</li>
+        <li>Elden ring</li>
+        <li>Dark soul</li>
+      </ul>
+    </div>
+    <!-- div này để tạo chữ có link click vào, (link văn bản) -->
+    <div>
+      <a href="https://https://youtube.com/watch?v=ugrwYCO-4dI"
+        >tao roblox tro ly ao loi`</a
+      >
+    </div>
+    <!-- form dùng để thu thập thông tin -->
+    <form>
+      <!-- Form điền -->
+      <div>
+        <label>Điền tên bạn vào đây:</label>
+        <input input="text" placeholder="vd:Nguyễn Văn A" />
+      </div>
+      <!-- Select option -->
+      <div>
+        <label>Bố mẹ bạn biết bạn bị gay chưa? </label>
+        <select>
+          <option>Biết rồi</option>
+          <option>Chưa biết</option>
+          <option>Oách đờ phắc</option>
+        </select>
+      </div>
+      <!-- Tick vào ô -->
+      <div>
+        <label> Bạn có gấu chưa? </label>
+        <input type="radio" name="gau" /> Chưa có
+        <input type="radio" name="gau" />IT làm méo gì có gấu
+      </div>
+      <!-- Nút button đơn giản -->
+      <div><input type="" value="Bấm đi!"> 
+        <input type="" placeholder="10 năm"> 
+        <br>
+        <button onclick="kimono()">
+          Bấm vào để sung sướng!!
+        </button></div>
+        <br/>
+
+<!-- Tạo bảng, border kẻ khung, tr là table row(hàng), td là table data(ô)-->
+<!-- th là table head (giúp in đậm, canh giữa(chủ yếu cho đầu bảng))  -->
+        <div id="bang">
+        <table border="1px">
+          <tr>
+            <th>Tên</th>
+            <th>Cảm nhận</th>
+            <th>Điểm</th>
+          </tr>
+          <tr>
+            <td>Tùng Núi MTP</td>
+            <td>Từ nơi đồng xanh</td>
+            <td>9.5</td>
+          </tr>
+          <tr>
+            <td>The Weeknd</td>
+            <td>Save your tear</td>
+            <td>Giữ giọt lệ sầu</td>
+          </tr>
+          <tr>
+            <td>Post Malone</td>
+            <td>I like you</td>
+            <td>Sun/10</td>
+          </tr>
+        </table>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

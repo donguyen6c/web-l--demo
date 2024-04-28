@@ -1,0 +1,35 @@
+html {
+  background: url(https://i.ytimg.com/vi/rTVh5npmfbo/maxresdefault.jpg);
+  background-size: cover;
+  font-family: "Arial";
+}
+div {
+  color: #ff4d4d;
+  text-align: center;
+}
+#anh {
+    margin-top:10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border:1px solid #718093;
+    border-radius: 20px 20px 20px 20px;
+  
+}
+body{
+  font-family:"Inter";
+}
+.abc{
+  color:#130f40;
+}
+#lit{
+  color:#353b48;
+}
+#ED{
+  font-size: 20px;
+  color:#2f3640;
+  background-color: #e1b12c;
+}
+#tren{
+  text-align:center;
+}
